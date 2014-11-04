@@ -1,0 +1,32 @@
+Lyrics Submitting form - https://docs.google.com/spreadsheets/d/1KmR6qLoXYRI5f32OUwoCl_JSp4adZhDvipuqryR87uM
+
+
+Image URL to Local Temp
+-----------------------
+
+		   
+//		URL url = new URL("http://img.youtube.com/vi/7E0iklvIZew/maxresdefault.jpg");
+//		String tDir = System.getProperty("java.io.tmpdir");
+//		String path = tDir + "tmp" + ".jpg";
+//		System.out.println(path);
+//		File file = new File(path);
+//		file.deleteOnExit();
+//		FileUtils.copyURLToFile(url, file);
+//		
+//		   content.setBytes(getBytes(file));
+
+nerungi nerungi palagum pothu nejan ondraagum -- amma sung  nada ammachi nalla thanni kulam
+
+Iterating through PhotoEntries
+-------------------------------
+
+//				List<PhotoEntry> photoEntries = client.getPhotos(aEntry);
+				
+//				for (PhotoEntry pEntry : photoEntries) {
+//					String href = pEntry.getHtmlLink().getHref();
+//
+//					if (pEntry.getMediaContents().size() > 0) {
+//						href = pEntry.getMediaContents().get(0).getUrl();
+//					}
+//					System.out.println(href);
+//				}
